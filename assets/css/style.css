@@ -1,0 +1,99 @@
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+body {
+	padding-top: 5rem;
+}
+
+body.dark-mode {
+	background-color: #333333;
+	color: aliceblue;
+}
+
+body.js-logo {
+	background-color: #F7DF1C;
+}
+
+body.grey-mode {
+	background-color: #e2e3e5;
+	color: #333333;
+}
+
+body.green-mode {
+	background-color: #182b1b;
+	text-decoration-color: aliceblue;
+	color: aliceblue;
+}
+
+.standart {
+	padding-top: 2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-form-style {
+	padding: 3rem 1.5rem;
+	display: block;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.li-todo {
+	text-align: left;
+}
+
+.my-result-style {
+	padding: 3rem 1.5rem;
+	display: block;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.centered-padd {
+	text-align: center;
+	padding: 20px;
+}
+
+.centered-20 {
+	vertical-align: center;
+	padding: 20px;
+}
+
+.logo-nav {
+	border: 3px solid #000 !important;
+	border-radius: 10px;
+}
+
+.main-image {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clock {
+	font-size: 3em;
+}
+
+.paused {
+	color: red;
+}

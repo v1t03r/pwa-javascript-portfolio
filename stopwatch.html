@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- SEO -->
+  <meta name="title" content="JSPortal · JavaScript Portal">
+  <meta name="description" content="JavaScript Portal by Victor Pacheco">
+  <meta name="keywords" content="JavaScript, JS, JSPortal, iVip Tecnologia">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="3 days">
+  <meta name="author" content="Victor Pacheco [victor.pacheco@gmail.com]">
+
+  <title>JSPortal - JavaScript Portal</title>
+  <link rel="canonical" href="https://iviptecnologia.com.br/index.html">
+
+  <!-- CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+  <!-- PWA -->
+  <meta name="theme-color" content="#333333">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    //if browser support service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('pwa.js')
+          .then(reg => {
+            console.log('Registered!', reg);
+          }).catch(err => {
+            console.log('Registration failed: ', err);
+          });
+      });
+    }
+  </script>
+</head>
+
+<body class="dark-mode">
+    <div class="nav-menu"></div>
+    <!-- Main Section -->
+    <main role="main" class="standart">
+        <div class="main-image">
+            <img src="assets/img/stopwatch.png" alt="Stopwatch">
+        </div>
+        <h3 class="centered">JS Stopwatch</h3>
+        <div class="centered-padd">
+            <p class="clock">00:00:00</p>
+            <p>
+                <button class="start btn btn-secondary">Start</button>
+                <button class="pause btn btn-secondary">Pause</button>
+                <button class="clear btn btn-secondary">Clear</button>
+            </p>
+        </div>
+    </main>
+    <!-- Scripts -->
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/stopwatch.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

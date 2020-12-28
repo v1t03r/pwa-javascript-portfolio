@@ -1,0 +1,22 @@
+{
+    "short_name": "JSPortal",
+    "name": "JSPortal",
+    "icons": [
+      {
+        "src": "/assets/img/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/img/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "#F7DF1C",
+    "display": "standalone",
+    "theme_color": "#F7DF1C"
+  }
