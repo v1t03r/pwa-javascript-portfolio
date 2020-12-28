@@ -8,7 +8,7 @@ JavaScript Portal by Victor Pacheco [https://iviptecnologia.com.br/]
 
 ## Install a PWA on desktop
 
-Open https://iviptecnologia.com.br/ in your preferred browser.
+Open https://iviptecnologia.com.br/ in Chrome.
 Click on an install button in the address bar.
 Click Install.
 
@@ -21,7 +21,7 @@ Follow the onscreen instructions to install.
 
 ## Installing a PWA on iOS
 
-Navigate to https://iviptecnologia.com.br/ you want to add as a PWA in Safari.
+Navigate to https://iviptecnologia.com.br/ in Safari.
 Then tap the 'Share' button, scroll down and tap 'Add to Home Screen.
 Enter the name for the app then tap add.
 The PWA will show up on your home screen like a native iOS app.
