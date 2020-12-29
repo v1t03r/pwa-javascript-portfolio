@@ -25,6 +25,7 @@ menu.innerHTML = `
         <a class="dropdown-item" href="../pomodoro.html">JS Pomodoro Timer</a>
         <a class="dropdown-item" href="../to-do.html">JS Lista de Tarefas</a>
         <a class="dropdown-item" href="../calculator.html">JS Calculadora</a>
+        <a class="dropdown-item" href="../percentual.html">JS Calculadora de Porcentagem</a>
       </div>
     </li>
     <li class="nav-item dropdown">
