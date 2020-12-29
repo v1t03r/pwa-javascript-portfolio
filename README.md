@@ -1,7 +1,6 @@
 # PWA (Progressive Web App) JSPortal
 
 JavaScript Portal by Victor Pacheco [https://iviptecnologia.com.br/]
-Last update: 29/12/2020 05:14 pm
 
 ![PWA Screenshot 01](https://iviptecnologia.com.br/assets/img/jsportal-pwa-print-01.jpg)
 ![PWA Screenshot 02](https://iviptecnologia.com.br/assets/img/jsportal-pwa-print-02.jpg)
