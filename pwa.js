@@ -29,6 +29,7 @@ self.addEventListener('install', function (event) {
         '/assets/img/brazilian-portuguese.png',
         '/assets/img/english.png',
         '/assets/img/french.png',
+        '/assets/img/percentual.png',
         '/assets/favicon/favicon-32x32.png',
         '/assets/favicon/favicon-16x16.png',
         '/assets/js/menu.js',
