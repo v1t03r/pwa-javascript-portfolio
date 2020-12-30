@@ -1,4 +1,4 @@
-// iVip PWA Version 1.1
+// iVip PWA Version 2.0
 // On install - caching the application shell
 self.addEventListener('install', function (event) {
   event.waitUntil(
@@ -69,39 +69,3 @@ self.addEventListener('fetch', function (event) {
     })
   );
 });
-// On install - caching the application shell
-// self.addEventListener('install', function (event) {
-//   event.waitUntil(
-//     caches.open('pwa-cache').then(function (cache) {
-//       // cache any static files that make up the application shell
-//       return cache.addAll([
-//         
-//         '/stopwatch.html',
-//         '/to-do.html',
-//         '/assets/dist/css/bootstrap.min.css',
-//         '/assets/css/style.css',
-//         '/assets/img/javascript-logo.jpg',
-//         '/assets/img/js-large.png',
-//         '/assets/js/date.js',
-//         'https://code.jquery.com/jquery-3.5.1.slim.min.js',
-//         '/assets/js/vendor/jquery.slim.min.js',
-//         '/assets/dist/js/bootstrap.bundle.min.js',
-//         '/assets/favicon/apple-touch-icon.png',
-//         '/assets/favicon/favicon-32x32.png',
-//         '/assets/favicon/favicon-16x16.png',
-//         '/assets/favicon/safari-pinned-tab.svg'
-//       ]);
-//     })
-//   );
-// });
-
-// // On network request
-// self.addEventListener('fetch', function (event) {
-//   event.respondWith(
-//     // Try the cache
-//     caches.match(event.request).then(function (response) {
-//       //If response found return it, else fetch again
-//       return response || fetch(event.request);
-//     })
-//   );
-// });
