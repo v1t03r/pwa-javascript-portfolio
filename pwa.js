@@ -35,6 +35,7 @@ self.addEventListener('install', function (event) {
         '/assets/img/percentual.png',
         '/assets/img/valid.png',
         '/assets/img/cpf.png',
+        '/assets/img/password.png',
         '/assets/favicon/favicon-32x32.png',
         '/assets/favicon/favicon-16x16.png',
         '/assets/js/menu.js',
