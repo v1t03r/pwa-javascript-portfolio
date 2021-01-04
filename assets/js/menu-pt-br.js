@@ -28,6 +28,7 @@ menu.innerHTML = `
         <a class="dropdown-item" href="../percentual.html">JS Calculadora de Porcentagem</a>
         <a class="dropdown-item" href="../form-validation.html">JS Validador de Formulário (CPF)</a>
         <a class="dropdown-item" href="../cpf-generator.html">JS Gerador de CPF</a>
+        <a class="dropdown-item" href="../password-generator.html">JS Gerador de Senhas</a>
       </div>
     </li>
     <li class="nav-item dropdown">
