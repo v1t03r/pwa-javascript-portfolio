@@ -1,4 +1,4 @@
-## PWA (Progressive Web App)
+## JSPortal (Progressive Web App)
 
 Vanilla JavaScript Codes
 
